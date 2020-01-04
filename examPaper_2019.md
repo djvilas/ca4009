@@ -315,3 +315,11 @@ Even if high quality question answering systems were available commercially, why
 
 ### When trying to test out a tweak or a new algorithm for a search engine that is live and available for public use, you can get very quick feedback on how well your updated system performs comapared to the previous version.
 ### Consider A to be your current system, and B will be the system with a tweak that should improve the user's experience. Both A and B search engines are launched live at the same time. They both look and function as far the user is concerned, identically. They have no knowledge of there existing two slightly different search engines. Users are randomly assigned either A or B engine. Based on a user's interactivity, you can track how many clicks were made, how many searches/alterations, etc. to figure out whether the newer system B outperformed A.
+
+## 6(e) [6 Marks]
+
+> i. Summarization is content reduction through selection or generalisation on what is important in the source. Using an example, explain what is meany by the concepts of selection and generalisation in this definition.
+
+- Selection -> Forming a summary focused on a subset of the topical content of the source document in detail.
+- Generalisation -> Forming a summary which overviews the entire topical contents of the source document.
+
