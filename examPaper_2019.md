@@ -8,7 +8,7 @@
 
 > What are the differences between HTML and XML document markup? Use examples to illustrate your answer.
 
-XML and HTML were designed with different goals:
+##### XML and HTML were designed with different goals:
 - XML was designed to describe data and to focus on what data is.
 - HTML was designed to display data and to focus on how data looks.
 
@@ -16,7 +16,7 @@ XML markup adds information to a document to make enhance its
 usefulness.
 HTML is about displaying information, XML is about describing information.
 
-Differences:
+##### Differences:
 - Some HTML elements do not require a closing tag, buut all XML elements must have a closing tag.
 - XML tags are case sensitive, HTML tags are not.
 - HTML tags are predefined, XML tags are user defined.
@@ -25,7 +25,7 @@ Differences:
 
 > i. What is meant by “human-in-the-loop” in image and video search?
 
-Human-in-the-loop refers to an actual person helping to improve query results by manually providing relevance feedback.
+##### Human-in-the-loop refers to an actual person helping to improve query results by manually providing relevance feedback.
 - User enters their best attempt at a text or visual query.
 - Collects the search results, and provides feedback on the relevance
 of the retrieved content.
