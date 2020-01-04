@@ -4,7 +4,7 @@
 
 ### QUESTION 2 [Total marks: 25]
 
-#### 2(a) [4 Marks]
+### 2(a) [4 Marks]
 
 > What are the differences between HTML and XML document markup? Use examples to illustrate your answer.
 
@@ -21,7 +21,7 @@ HTML is about displaying information, XML is about describing information.
 - XML tags are case sensitive, HTML tags are not.
 - HTML tags are predefined, XML tags are user defined.
 
-#### 2(b) [6 Marks]
+### 2(b) [6 Marks]
 
 > i. What is meant by “human-in-the-loop” in image and video search?
 
@@ -41,10 +41,17 @@ mantic gap pose a challenge for multimedia search systems?
 
 It is relatively easy to extract low level features from visual images, e.g.
 - The colours present in an image.
+
 but very much harder to automatically describe images in the way that a human observer would.
 
 ###### This difference between machine and human descriptions of visual
 media is referred to as the semantic gap.
 
 ##### There is a much larger gap between the features of a video which can be extracted automatically (as described in these notes) and its meaning or semantic interpretation by a user.
+
+### 2(c) [4 Marks]
+
+> How can XML be used for content annotation in multimedia information retrieval for
+items such as images and video? Use examples to illustrate your answer.
+
 
