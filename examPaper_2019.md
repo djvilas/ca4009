@@ -33,3 +33,18 @@ of the retrieved content.
 again.
 - Continues iteratively as the user steers the system towards relevant
 terms.
+
+> ii. What is the “semantic gap” in search of visual media? Why does the se-
+mantic gap pose a challenge for multimedia search systems?
+
+##### The semantic gap refers to the gap between the contents of a multimedia data stream and its meaning as interpreted by human observers.
+
+It is relatively easy to extract low level features from visual images, e.g.
+- The colours present in an image.
+but very much harder to automatically describe images in the way that a human observer would.
+
+###### This difference between machine and human descriptions of visual
+media is referred to as the semantic gap.
+
+##### There is a much larger gap between the features of a video which can be extracted automatically (as described in these notes) and its meaning or semantic interpretation by a user.
+
