@@ -273,3 +273,45 @@ Even if high quality question answering systems were available commercially, why
 
 - Process the question to determine the EAT (Expected Answer Type). Eg, Who is the President of Ireland? EAT = Name
 - Analyze the documents to try to find potential answers that match this type of requirement.
+
+# QUESTION 6 [Total marks: 25]
+
+## 6(a) [6 Marks]
+> Explain the following concepts as they apply to the goals of an operational recommender system: relevance, novelty, serendipity, diversity.
+
+- Relevance: Recommend items relevant to the user.
+- Novelty: Recommend new items relevant to the user which they have not seen before.
+- Serendipity: Recommend unexpected or surprising items which the user finds relevant.
+- Diversity: If a diverse list of items are arecommended, there is a greater chance that one of them will be relevant to the user, and therefore be purchased.
+
+> Why is a successful recommender system likely to incorporate all of these facotrs in determining its output?
+
+### All of the goals above are designed to maximise profits.
+
+## 6(b) [4 Marks]
+
+> i. What is the cold start problem in recommender systems?
+> ii. How does the cold start porblem pose a challenge for new items introduced into the catalogue of an e-commerce website?
+
+- User-side problem: Relates to the difficulty of making recommendations for new users who ave so far provided little rating information.
+- Item-side problem: Where new items have not been rated often enough to make reliable recommendations - generally they will not be recommended very often, and so will not build up rating information.
+
+## 6(c) [6 Marks]
+> What are the features of a knowledge-based recommender system?
+- KBRSs make recommendations based on customer requiremements and item descriptions, or use of constraints to specify user requirements.
+- Knowledge-bases contain data about rules and similarity functions for the matching process.
+- KBRSs allow the user to explicitly specific what they want.
+
+> For what tasks are knowledge-based recommender systems well suited?
+
+- Useful for items purchased infrequently as sufficient ratings are typically not available for these items to make reliable recommendations to a user using other methods.
+
+> Why would a content-based recommender system or collaborative filtering approach not be suitable for these tasks?
+- A CBRS combiens rating of previous items by the user, their selection or purchase behaviour and analysis of the contents of items to recommend items. These recommendations will be similar to other purchases are already made, but will not be specifically what the user goes out to look for.
+- A CF system recommends items based on other people's ratings to find other users who are similar to you. These recommendations widely vary and will not be specific to a users then and there needs.
+
+## 6(d) [3 Marks]
+> What is A/B testing as applied to online web applications?
+
+### When trying to test out a tweak or a new algorithm for a search engine that is live and available for public use, you can get very quick feedback on how well your updated system performs comapared to the previous version.
+### Consider A to be your current system, and B will be the system with a tweak that should improve the user's experience. Both A and B search engines are launched live at the same time. They both look and function as far the user is concerned, identically. They have no knowledge of there existing two slightly different search engines. Users are randomly assigned either A or B engine. Based on a user's interactivity, you can track how many clicks were made, how many searches/alterations, etc. to figure out whether the newer system B outperformed A.
