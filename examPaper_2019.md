@@ -4,7 +4,7 @@
 
 ### QUESTION 2 [Total marks: 25]
 
-### 2(a) [4 Marks]
+## 2(a) [4 Marks]
 
 > What are the differences between HTML and XML document markup? Use examples to illustrate your answer.
 
@@ -21,7 +21,7 @@ HTML is about displaying information, XML is about describing information.
 - XML tags are case sensitive, HTML tags are not.
 - HTML tags are predefined, XML tags are user defined.
 
-### 2(b) [6 Marks]
+## 2(b) [6 Marks]
 
 > i. What is meant by “human-in-the-loop” in image and video search?
 
@@ -49,7 +49,7 @@ media is referred to as the semantic gap.
 
 ##### There is a much larger gap between the features of a video which can be extracted automatically (as described in these notes) and its meaning or semantic interpretation by a user.
 
-### 2(c) [4 Marks]
+## 2(c) [4 Marks]
 
 > How can XML be used for content annotation in multimedia information retrieval for
 items such as images and video? Use examples to illustrate your answer.
@@ -64,3 +64,9 @@ individuals, etc.)
 #### Structured image metadata of this type can be used in various ways by a search engine:
 - Search against individual elements, e.g. search for images taken only by a certain make or model of camera, or by using the description of the images entered when they were uploaded to an archive.
 - Combine all metadata into a single unstructured file, index like a standard free text document, and then search using a standard information retrieval system.
+
+## 2(d) [8 Marks]
+
+> Before it can be searched, a collection of video recordings must be analysed to identify its visual and audio features. These extracted features for the video are then entered into a multimedia search system.
+
+Outline a range of analysis techniques that can be applied to the visual and audio content of a video, such as a television news broadcast or sports match, to prepare it for indexing by an interactive video search system.
