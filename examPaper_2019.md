@@ -100,3 +100,26 @@ retrieved?
 > Suggest how multiple audio and visual features extracted from a video could be combined to identify an event in the video, e.g. a goal in a soccer match, a wedding in a movie, or the key points in a scientific lecture.
 
 ### Using 'a goal in a soccer match' as an example, by using color histograms and shape-based retrieval, we are able to track the ball on a soccer field. We can do the same for the goal. If these two objects interact, we then analyse the audio to look if there was a loud cheer in the crowd. This would indicate that a goal has been successfuly completed, and that the ball did not miss.
+
+# QUESTION 4 [Total marks: 25]
+
+## 4(a) [4 Marks]
+
+> Give three examples of English stop words, and explain why they are stop words. Why are stop words often removed in information retrieval systems?
+
+### Frequent words are shown to have low resolving power and intuitively are not of much benefit to the IR process, they can thus be removed during indexing without impacting on retrieval effectiveness.
+
+### Stop words are typically prepositions and conjunctions, e.g. the, of, in, a, and, to, an.
+
+## 4(b) [5 Marks]
+
+> What are stemming algorithms as used in automatic indexing for information retrieval?
+
+### Stemming is one example of a conflation procedure that is designed to bring together words that are related to each other in some way, e.g. stop, stopping, stops, stopped → stop
+
+### Stemming algorithms are designed to remove suffixes that inhibit matching.
+### A stemming algorithm operates by:
+- Matching the ending of a word against a suffix directory.
+- Removing any suffix that is identified.
+- Checking whether any context-sensitive rules apply.
+
