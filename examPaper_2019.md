@@ -254,3 +254,17 @@ Give a sample example and illustrate these features of a knowledge graph.
 
 ![Obama's Knowledge Graph](https://github.com/djvilas/ca4009/blob/master/obama.PNG "Obama's Knowledge Graph")
 
+## 5(d)
+### i. [4 Marks]
+> What is the difference between a conventional information retrieval system and a question answering system?
+Even if high quality question answering systems were available commercially, why would there still be a need for information retrieval systems?
+
+### Information retrieval systems are concerned with searching for and retrieving documents relevant to a user's information need. The searcher is required to extract information from the retrieved documents in order to satisfy their information need.
+
+### However, many user requests are essentially questions looking for a single fact or piece of information that ca be made in a short statement.
+
+### Even if high quality question answering systems were available commercially, we would still need information retrieval systems to initially find relevant documents, and then for those who want to expand upon their answer you would need to provide broader information.
+
+### ii. [5 Marks]
+> Sketch the standard workflow of a question answering system based on document retrieval.
+Suggest how a knowledge graph could be used for question answering instead of retrieving documents.
