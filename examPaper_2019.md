@@ -59,9 +59,8 @@ For example, for a photo or other image, an XML markup scheme can be defined whi
 - Time of capture: day, month, year, minutes, hours, seconds, ...
 - GPS location: mapped to named locations via gazzateer.
 - Automatic content analysis (colours, shapes, named places, named
-individuals, etc.);
+individuals, etc.)
 
-#### Structured image metadata of this type can be used in various ways by a
-search engine:
+#### Structured image metadata of this type can be used in various ways by a search engine:
 - Search against individual elements, e.g. search for images taken only by a certain make or model of camera, or by using the description of the images entered when they were uploaded to an archive.
-
+- Combine all metadata into a single unstructured file, index like a standard free text document, and then search using a standard information retrieval system.
