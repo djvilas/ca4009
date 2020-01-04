@@ -123,3 +123,26 @@ retrieved?
 - Removing any suffix that is identified.
 - Checking whether any context-sensitive rules apply.
 
+> Explain what is meant by under-stemming and over-stemming.
+
+### Over-stemming is when two words with different stems are stemmed to the same root.
+- MEDICAL → MED
+- MEDIA → MED
+- MEDIAN → MED
+
+### Under-stemming is when two words that should be stemmed to the same root are not.
+- GASES GAS 
+- GAS GA 
+- GASEOUS GASE
+
+> For stemming of English language text, why do we generally want to stem suffixes, but not prefixes?
+
+### In English, we would generally regard only those differing in their suffix as semantically similar.
+
+## 4(c) [7 Marks]
+
+> i. Why is the use of suitable data structures vital for the implementation of
+effective search systems.
+
+### An important feature for useres of an ir system is often the time taken for it to respond to their search request. An important factor in determining the speed of an IR System response is the strcuture of the document representations. So, wo want a data structure that will minimise the computational cost, and hence maximise the efficiency and speed of the query-document matching operation when a new request is entered.
+
