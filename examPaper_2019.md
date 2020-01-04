@@ -195,3 +195,24 @@ effective search systems.
 
 ### Faceted search can ber useful since the searcher may remember one or more details of the item that they are looking for, even if they can't remember enough details to create a meaningful search query. e.g. They may remember that they received an email that they are looking for from a particular person.
 ### Thus they could start their search by looking at items from said person only.
+
+# QUESTION 5 [Total marks: 25]
+
+## 5(a) [3 Marks]
+
+> What is the purpose of an information retrieval system? How does a standard information retrieval system attempt to achieve this purpose?
+
+### The purpose of an information retrieval system is to satisfy a user's information need. The IR system seeks to locate documents relevant to this information need.
+### A standard IR system attempts to do this based on the relationship between the contents of the user's search request and each potentially relevant document which is available in a document collection. Other factors can also be used, such as...
+- Hypertext structures
+- Popularity with other searches
+- Quality of content
+- Recency of updates
+
+## 5(b) [8 Marks]
+> The Okapi BM25 term weighting function for best-match information retrieval is given by the following equation (refer to exam paper).
+With reference to the Okapi BM25 model as described by the equation above, explain the concept of:
+- Collection frequency weighting
+- Term frequency weighting
+- Document length normalisation
+How do the k1 and b factors operate in the equation for the Okapi BM25 model?
