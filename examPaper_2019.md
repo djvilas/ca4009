@@ -1,8 +1,6 @@
 # CA4009 – Search Technologies 2019 Exam Paper
 
-## Section B
-
-### QUESTION 2 [Total marks: 25]
+# QUESTION 2 [Total marks: 25]
 
 ## 2(a) [4 Marks]
 
