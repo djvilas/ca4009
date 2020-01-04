@@ -267,4 +267,9 @@ Even if high quality question answering systems were available commercially, why
 
 ### ii. [5 Marks]
 > Sketch the standard workflow of a question answering system based on document retrieval.
-Suggest how a knowledge graph could be used for question answering instead of retrieving documents.
+![IR-Based Question Answering Graph](https://github.com/djvilas/ca4009/blob/master/answering.PNG "IR-Based Question Answering Graph")
+
+> Suggest how a knowledge graph could be used for question answering instead of retrieving documents.
+
+- Process the question to determine the EAT (Expected Answer Type). Eg, Who is the President of Ireland? EAT = Name
+- Analyze the documents to try to find potential answers that match this type of requirement.
