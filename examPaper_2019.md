@@ -243,3 +243,11 @@ _dl(j)_ = The total number of term occurences in document _d(j)_
 
 >Normalised average document length:
 _ndl(j)_ = _dl(j)_ / average _dl_ for all documents
+
+### K1 and B
+- The _k1_ factor determines the impact of term frequency in a document. A typical value for _k1_ would be 1.5
+- _b_ determines the degree of document length normalisation. The value of _b_ can vary in range of 0 to 1.
+
+## 5(c) [5 Marks]
+> Knowledge graphs encode information extracted from source texts. A knowledge graph typically describes the relationships between entities and the attributes of the entities.
+Give a sample example and illustrate these features of a knowledge graph.
