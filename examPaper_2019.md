@@ -235,9 +235,11 @@ With reference to the Okapi BM25 model as described by the equation above, expla
 > The term frequency for term _t(i)_ in document _d(j)_ is:
 tf(i,j) = the number of occoruences of term _t(i)_ in document _d(j)_.
 
-### Document Length Normalisation -> A term that occurs the same number of times in a short document and in a long document, is likely to be more valuable for the former. Without compensating for document length, longer documents will tend to have higher matching scores merely because they are long.
+### Document Length Normalisation -> A term that occurs the same number of times in a short document and in a long document, is likely to be more valuable for the former. 
 
+>Without compensating for document length, longer documents will tend to have higher matching scores merely because they are long.
 >Document length of document _d(j)_ is...
 _dl(j)_ = The total number of term occurences in document _d(j)_
-Normalised average document length:
+
+>Normalised average document length:
 _ndl(j)_ = _dl(j)_ / average _dl_ for all documents
