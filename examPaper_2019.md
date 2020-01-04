@@ -222,7 +222,10 @@ With reference to the Okapi BM25 model as described by the equation above, expla
 
 ### Given:
 > _t(i)_ = Term
+
 > _n(i)_ = The number of documents term _t(i)_ occurs in
+
 > _N_ = The total number of documents in the collection archive
 
-The _cfw_ for term t(i) is
+> The _CFW_ for term _t(i)_ is
+> cfw(i) = log (N / n(i))
