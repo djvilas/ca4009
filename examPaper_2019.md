@@ -6,5 +6,5 @@
 
 #### 2(a) [4 Marks]
 
-< What are the differences between HTML and XML document markup? Use exam-
+> What are the differences between HTML and XML document markup? Use exam-
 ples to illustrate your answer.
