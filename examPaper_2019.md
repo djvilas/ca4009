@@ -66,3 +66,37 @@ individuals, etc.)
 
 > Before it can be searched, a collection of video recordings must be analysed to identify its visual and audio features. These extracted features for the video are then entered into a multimedia search system.
 Outline a range of analysis techniques that can be applied to the visual and audio content of a video, such as a television news broadcast or sports match, to prepare it for indexing by an interactive video search system.
+
+- Multimedia content is often accompanied by text metadata which can be used to search for relevant items without requiring analysis of the multimedia content.
+
+### Automatic speech reconition (ASR) systems can be used to generate imperfect index information for spoken content. Index errors arising from ASR errors will reduce effectiveness of a retrieval system, but overall retrieval is often good enough to be useful.
+Automatic speech recognition (ASR) is hard!
+- Speech patterns of different people show significant variations.
+- Every individual utterance of a word by every speaker is unique.
+- Speech is continuous – often with no gaps between spoken words.
+- Words are “smeared” together.
+
+### Content-based retrieval of visual media is a much more challenging prospect than spoken content retrieval.
+
+###Fundamental questions include:
+- What visual features should be extracted to describe the content to be
+retrieved?
+- Can these features be extracted reliably?
+- How should queries be posed
+
+### Successful content-based retrieval systems for visual media have generally been task or domain specific, i.e.
+- They are developed for a specific activity such as spotting cars in a video or tracking football players in match.
+- They can often be adapted for use in different domains, e.g. to track aeroplanes or baseball players.
+
+### Relevant images can be located using a variety of attributes. These can include automatically extracted and manually assigned features.
+
+- Using Colour Histograms
+- Texture-Based Retrieval
+- Shape-Based Retrieval
+- For most effective access an application should generally use both the video and audio media synchronised for retrieval.
+
+## 2(e) [3 Marks]
+
+> Suggest how multiple audio and visual features extracted from a video could be combined to identify an event in the video, e.g. a goal in a soccer match, a wedding in a movie, or the key points in a scientific lecture.
+
+### Using 'a goal in a soccer match' as an example, by using color histograms and shape-based retrieval, we are able to track the ball on a soccer field. We can do the same for the goal. If these two objects interact, we then analyse the audio to look if there was a loud cheer in the crowd. This would indicate that a goal has been successfuly completed, and that the ball did not miss.
