@@ -213,6 +213,7 @@ effective search systems.
 > The Okapi BM25 term weighting function for best-match information retrieval is given by the following equation (refer to exam paper).
 With reference to the Okapi BM25 model as described by the equation above, explain the concept of:
 > - Collection frequency weighting
-- Term frequency weighting
-- Document length normalisation
-How do the k1 and b factors operate in the equation for the Okapi BM25 model?
+> - Term frequency weighting
+>- Document length normalisation
+
+>How do the k1 and b factors operate in the equation for the Okapi BM25 model?
