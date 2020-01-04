@@ -251,3 +251,6 @@ _ndl(j)_ = _dl(j)_ / average _dl_ for all documents
 ## 5(c) [5 Marks]
 > Knowledge graphs encode information extracted from source texts. A knowledge graph typically describes the relationships between entities and the attributes of the entities.
 Give a sample example and illustrate these features of a knowledge graph.
+
+![Obama's Knowledge Graph](https://github.com/djvilas/ca4009/blob/master/obama.PNG "Obama's Knowledge Graph")
+
