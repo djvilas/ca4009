@@ -54,4 +54,14 @@ media is referred to as the semantic gap.
 > How can XML be used for content annotation in multimedia information retrieval for
 items such as images and video? Use examples to illustrate your answer.
 
+#### XML DTDs can be defined for objects to be entered into a search engine.
+For example, for a photo or other image, an XML markup scheme can be defined which captures the attributes of the image.
+- Time of capture: day, month, year, minutes, hours, seconds, ...
+- GPS location: mapped to named locations via gazzateer.
+- Automatic content analysis (colours, shapes, named places, named
+individuals, etc.);
+
+#### Structured image metadata of this type can be used in various ways by a
+search engine:
+- Search against individual elements, e.g. search for images taken only by a certain make or model of camera, or by using the description of the images entered when they were uploaded to an archive.
 
