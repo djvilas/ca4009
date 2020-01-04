@@ -131,9 +131,9 @@ retrieved?
 - MEDIAN → MED
 
 ### Under-stemming is when two words that should be stemmed to the same root are not.
-- GASES GAS 
-- GAS GA 
-- GASEOUS GASE
+- GASES → GAS 
+- GAS → GA 
+- GASEOUS → GASE 
 
 > For stemming of English language text, why do we generally want to stem suffixes, but not prefixes?
 
@@ -144,5 +144,54 @@ retrieved?
 > i. Why is the use of suitable data structures vital for the implementation of
 effective search systems.
 
-### An important feature for useres of an ir system is often the time taken for it to respond to their search request. An important factor in determining the speed of an IR System response is the strcuture of the document representations. So, wo want a data structure that will minimise the computational cost, and hence maximise the efficiency and speed of the query-document matching operation when a new request is entered.
+### An important feature for useres of an ir system is often the time taken for it to respond to their search request. An important factor in determining the speed of an IR System response is the strcuture of the document representations. So, we want a data structure that will minimise the computational cost, and hence maximise the efficiency and speed of the query-document matching operation when a new request is entered.
 
+> ii. Using an example, explain the use of inverted files in text search systems. Your answer should illustrate how hashing is used for efficient processing of search terms.
+
+### Suppose that a document archive consists of just 3 documents represetned only by their titles.
+
+- D1. Information retrieval systems
+- D2. Databse management systems
+- D3. Retrieval of information from computer systems
+
+### After removing stop words, each remainign word is tokenized.
+- computer -> T1
+- database -> T2
+- information -> T3
+- management -> T4
+- retrieval -> T5
+- systems -> T6
+
+### Represent the documents in an inverted file organization produces:
+- T1 -> D3
+- T2 -> D2
+- T3 -> D1, D3
+- T4 -> D2
+- T5 -> D1, D3
+- T6 -> D1, D2, D3
+
+### Potentially relevant matching documents are identified using the list of terms.
+
+- The term data in the inverted file can be extended to include the location of each term within each document, although adding this information will make the inverted file larger.
+- This can be used to incorporate term proximity into retrieval matching functions.
+- Storing proximity information can also allow for phrasal searching.
+
+## 4(d)
+### [4 Marks]
+> i. What is enterprise search? Why is enterprise search of increasing importance?
+
+### Enterprise Search refers to the application of search technologies to information within an organisation, e.g. a business or public body. Interestingly something like 80% of enterprise content is in unstructured form, i.e. not in a structured database!
+### There is evidence that employees spend a significant amount of time searching for information needed in their work, and often failing to find it!
+
+### [5 Marks]
+> ii. Metadata can be used to annotate enterprise content with facets relating to the content items. Give three examples of typical facets in enterprise content.
+
+### Each facet typically corresponds to the possible values of a property common to all objects.
+- Author
+- Language
+- Source
+
+> How can facets be used to support search of partially remembered content in enterprise search in combination with suitably designed rich user interfaces, to facilitate effective enterprise search?
+
+### Faceted search can ber useful since the searcher may remember one or more details of the item that they are looking for, even if they can't remember enough details to create a meaningful search query. e.g. They may remember that they received an email that they are looking for from a particular person.
+### Thus they could start their search by looking at items from said person only.
