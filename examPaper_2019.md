@@ -65,5 +65,4 @@ individuals, etc.)
 ## 2(d) [8 Marks]
 
 > Before it can be searched, a collection of video recordings must be analysed to identify its visual and audio features. These extracted features for the video are then entered into a multimedia search system.
-
 Outline a range of analysis techniques that can be applied to the visual and audio content of a video, such as a television news broadcast or sports match, to prepare it for indexing by an interactive video search system.
